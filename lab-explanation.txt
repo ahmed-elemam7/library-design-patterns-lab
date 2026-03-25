@@ -1,0 +1,22 @@
+This solution keeps the starter idea and adds the required design patterns.
+
+1) Singleton
+Used in LibraryService so there is only one service object.
+
+2) Factory Method
+Used in BookFactory to create different book types.
+
+3) Decorator
+Used in PremiumBook to add 10 extra borrow days without changing Book.
+
+4) Chain of Responsibility
+Used in Librarian, Manager, and Director to approve requests depending on days.
+
+5) Facade
+Used in LibraryFacade to simplify borrowing operations.
+
+6) Adapter
+Used in BookAdapter to convert external book data to our book format.
+
+7) Observer
+Used in NotifiableBook to notify users when a book becomes available.
